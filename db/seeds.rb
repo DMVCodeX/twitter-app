@@ -16,6 +16,3 @@
 # Tweet.create(tweet: "Hello World!", user_id: 1)
 # Tweet.create(tweet: "Hello World!", user_id: 1)
 # Tweet.create(tweet: "Hello World!", user_id: 1)
-# Tweet.create(tweet: "Hello World!", user_id: 1)
-# Tweet.create(tweet: "Hello World!", user_id: 1)
-# Tweet.create(tweet: "Hello World!", user_id: 1)

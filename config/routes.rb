@@ -6,4 +6,8 @@ Rails.application.routes.draw do
   get "/users" => "users#index"
   get "/users/:id" => "users#show"
   post "/users" => "users#create"
+
+  get "/tweets" => "tweets#index"
+  get "/tweets/:id" => "tweets#show"
+  post "/tweets" => "tweets#create"
 end
