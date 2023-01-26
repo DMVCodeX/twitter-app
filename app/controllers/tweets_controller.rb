@@ -21,4 +21,10 @@ class TweetsController < ApplicationController
       render json: { errors: @newtweet.errors.full_messages }, status: :unprocessable_entity
     end
   end
+
+  def destroy
+    @tweet = Tweet.find_by(id: params[:id])
+    @tweet.destroy
+    render json: { message: "Tweet has been deleted" }
+  end
 end
